@@ -1,0 +1,234 @@
+.filemanager {
+  overflow-x: hidden;
+  padding-top: 30px;
+  padding-left: 10px;
+
+}
+
+.filesmanager-wrapper {
+  margin-left: 10px;
+  margin-bottom: 15px;
+  height: 150px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.folder {
+  margin-top: 6px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  cursor: pointer;
+}
+
+.inputContainer{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.inputContainer>span{
+  margin-top: 5px;
+}
+
+.inputContainer__input {
+  margin: 6px 0 0px 0;
+  padding: 2px 5px;
+  display: flex;
+  border: none;
+  outline: none;
+  width: 100px;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  background-color: #343434;
+  color: white;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 25px;
+  font-size: 13px;
+}
+
+.folder > span,
+.file {
+  margin: 0 5px;
+  color: rgb(194, 194, 194);
+  font-size: 13px;
+  padding: 5px;
+}
+
+.folder span svg,
+.file svg,
+.inputContainer svg {
+  color: rgb(194, 194, 194);
+  cursor: pointer;
+  fill: rgba(0, 0, 0, 0);
+  flex-shrink: 0;
+  font-size: 13px;
+  font-weight: 400;
+  height: 16px;
+  line-height: 13px;
+  list-style: none;
+  text-align: left;
+  white-space: nowrap;
+  width: 16px;
+}
+
+.folder > div > button {
+  font-size: 15px;
+  background-color: white;
+}
+
+.file {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.file:hover,
+.folder:hover {
+  background-color: #343434;
+}
+
+.folder > span {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.top-icons {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.top-icons button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.top-icons button svg {
+  color: rgb(153, 153, 153);
+  cursor: pointer;
+  fill: rgba(0, 0, 0, 0);
+  flex-shrink: 0;
+  font-size: 13px;
+  font-weight: 500;
+  height: 16px;
+  line-height: 16px;
+  width: 16px;
+}
+
+.sanbox-info-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border-radius: 2px;
+  color: #999999;
+  background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%;
+  border: medium none;
+  padding: 0px;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.sanbox-info-header svg {
+  color: rgb(153, 153, 153);
+  cursor: pointer;
+  fill: rgba(0, 0, 0, 0);
+  flex-shrink: 0;font-size: 13.3333px;
+  font-weight: 400;
+  height: 16px;
+}
+
+.sanbox-info-header span,
+.sanbox-info-content span {
+  box-sizing: border-box;
+  color: rgb(153, 153, 153);
+  cursor: pointer;font-size: 13.3333px;
+  font-weight: 400;
+  margin: 0px;
+}
+
+.sanbox-info-content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 2px;
+  color: #999999;
+  background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%;
+  border: medium none;
+  padding: 0px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+
+.sanbox-info-content svg {
+  color: rgb(153, 153, 153);
+  cursor: pointer;
+  fill: rgba(0, 0, 0, 0);
+  flex-shrink: 0;font-size: 13.3333px;
+  font-weight: 400;
+  height: 16px;
+}
+
+.sanbox-info-content > div {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.sanbox-info-content img {
+  color: rgb(194, 194, 194);
+  font-size: 12px;
+  font-weight: 600;
+  height: 18px;
+  line-height: 12px;
+  object-fit: cover;
+  width: 18px;
+}
+
+.sanbox-info-content a {
+  align-items: center;
+  color: rgb(194, 194, 194);
+  display: flex;
+  font-family: Inter,  "Helvetica Neue", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  margin-inline-start: 0px;
+  text-decoration: none;
+}
+
+.sandbox-img-wrapper {
+  align-items: center;
+  background-color: rgb(37, 37, 37);
+  border-radius: 50%;
+  box-sizing: border-box;
+  color: rgb(194, 194, 194);
+  display: flex;
+  flex-grow: 0;
+  font-family: Inter, "Helvetica Neue", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  height: 18px;
+  justify-content: center;
+  overflow: hidden;
+  vertical-align: middle;
+  width: 18px;
+}
+
+.dependencies-list {
+  list-style: none;
+  font-size: 13px;
+  font-family: Inter, "Helvetica Neue", sans-serif;
+  color: rgb(194, 194, 194);
+  font-weight: 400;
+  padding-left: 15px;
+}
